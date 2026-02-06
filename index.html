@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+
+<html lang="vi" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="//unpkg.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Wedding An Yami & Thu Buzzy &raquo;"
+    />
+
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: 'https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/',
+        ext: '.png',
+        svgUrl: 'https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/',
+        svgExt: '.svg',
+        source: {
+          concatemoji:
+            'https:\/\/thiepdientu.com.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4',
+        },
+      };
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case 'flag':
+              return n(
+                e,
+                '\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f',
+                '\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f'
+              )
+                ? !1
+                : !n(
+                    e,
+                    '\ud83c\uddfa\ud83c\uddf3',
+                    '\ud83c\uddfa\u200b\ud83c\uddf3'
+                  ) &&
+                    !n(
+                      e,
+                      '\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f',
+                      '\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f'
+                    );
+            case 'emoji':
+              return !n(
+                e,
+                '\ud83d\udc26\u200d\u2b1b',
+                '\ud83d\udc26\u200b\u2b1b'
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              'undefined' != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement('canvas'),
+            a = r.getContext('2d', { willReadFrequently: !0 }),
+            o = ((a.textBaseline = 'top'), (a.font = '600 32px Arial'), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement('script');
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        'undefined' != typeof Promise &&
+          ((o = 'wpEmojiSettingsSupports'),
+          (s = ['flag', 'emoji']),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener('DOMContentLoaded', e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  'object' == typeof e &&
+                  'number' == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  'object' == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                'undefined' != typeof Worker &&
+                'undefined' != typeof OffscreenCanvas &&
+                'undefined' != typeof URL &&
+                URL.createObjectURL &&
+                'undefined' != typeof Blob
+              )
+                try {
+                  var e =
+                      'postMessage(' +
+                      f.toString() +
+                      '(' +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ','
+                      ) +
+                      '));',
+                    r = new Blob([e], { type: 'text/javascript' }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: 'wpTestEmojiSupports',
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  'flag' !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="wp-includes/css/style.min380f.css"
+      media="all"
+    />
+
+    <style id="rank-math-toc-block-style-inline-css">
+      .wp-block-rank-math-toc-block nav ol {
+        counter-reset: item;
+      }
+
+      .wp-block-rank-math-toc-block nav ol li {
+        display: block;
+      }
+
+      .wp-block-rank-math-toc-block nav ol li:before {
+        content: counters(item, '.') '. ';
+        counter-increment: item;
+      }
+    </style>
+
+    <style id="classic-theme-styles-inline-css">
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+      async
+    ></script>
+
+    <style id="global-styles-inline-css">
+      header {
+        position: relative;
+        z-index: 9999;
+      }
+
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+
+      body .is-layout-grid {
+        display: grid;
+      }
+
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      id="uikit-css"
+      href="wp-content/themes/css/uikit.min8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="reset uikit-css"
+      href="wp-content/themes/css/reset18a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="remixicon-css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css?ver=1.0.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="preload-css"
+      href="wp-content/themes/css/preload8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wedding reset-css"
+      href="wp-content/themes/css/reset-wedding8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fancybox-css"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css?ver=1.0.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper slide-css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?ver=1.0.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animation-css"
+      href="wp-content/themes/css/animation8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="aos style-css"
+      href="wp-content/themes/css/aos8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="footer style-css"
+      href="wp-content/themes/css/footer8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wedding style-css"
+      href="wp-content/themes/css/wedding8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-css"
+      href="wp-content/themes/css/theme8a54.css"
+      media="all"
+    />
+
+    <script
+      src="wp-includes/js/jquery/jquery.minf43b.js"
+      id="jquery-core-js"
+    ></script>
+
+    <script
+      src="wp-includes/js/jquery/jquery-migrate.min5589.js"
+      id="jquery-migrate-js"
+    ></script>
+
+    <script
+      src="wp-content/themes/js/jquery.min8a54.js"
+      id="Jquery-js"
+    ></script>
+
+    <link rel="https://api.w.org/" href="https://thiepdientu.com.vn/wp-json/" />
+
+    <meta name="generator" content="" />
+
+    <style type="text/css">
+      .site-title,
+      .site-description {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+      }
+    </style>
+
+    <link rel="icon" href="wp-content/pic/favicon.png" sizes="32x32" />
+    <link rel="icon" href="wp-content/pic/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="wp-content/pic/favicon.png" />
+
+    <meta name="msapplication-TileImage" content="wp-content/pic/favicon.png" />
+
+    <link rel="stylesheet" href="wp-content/themes/assets/style.css" />
+  </head>
+
+  <body
+    class="mau-thiep-template mau-thiep-template-templates mau-thiep-template-korea mau-thiep-template-templateskorea-php single single-mau-thiep postid-154 no-sidebar"
+  >
+    <div
+      id="welcome-modal"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+      "
+    >
+      <div
+        style="
+          background: white;
+          padding: 30px 40px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+          text-align: center;
+        "
+      >
+        <h2
+          style="
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', serif;
+            color: #d6336c;
+          "
+        >
+          Тойго чакыруу 🤍
+        </h2>
+        <p
+          style="
+            font-size: 16px;
+            margin-bottom: 30px;
+            font-family: 'Georgia', serif;
+          "
+        >
+          Сизди үйлөнүү тоюбузга урматтоо менен чакырабыз. Бул кубанычтуу
+          күнүбүздү биз менен бирге бөлүшүңүздү каалайбыз.
+        </p>
+        <button
+          id="startButton"
+          style="
+            padding: 12px 25px;
+            font-size: 18px;
+            color: white;
+            background: #d6336c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Arial', sans-serif;
+          "
+        >
+          Чакырууну көрүү
+        </button>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <section id="banner" class="bg_overlay" style="height: 850px">
+        <img
+          data-src="https://data.kaktus.media/image/big/2021-03-23_16-13-54_354930.jpg"
+          alt=""
+          class="banner-bg img_bg banner_top lazyload"
+          style="background-position: center center"
+        />
+
+        <div class="container">
+          <div class="banner-container" >
+            <div class="banner-title">
+              <p>Сизди үйлөнүү тоюбузга чакырабыз!</p>
+            </div>
+
+            <div class="banner-name">
+              Султан<br />
+              &<br />
+              Чынара
+            </div>
+
+            <div class="banner-date">
+              <div class="group-date">
+                <span class="day_name"> ЖУМА </span>
+
+                <span class="banner_date"> 20 </span>
+
+                <span class="banner_time"> СААТ 17:00</span>
+              </div>
+
+              <span class="banner_month"> 04 </span>.
+
+              <span class="banner_year"> 2026 </span>
+
+              <div class="group-add">
+                <p>Ресторан «Ала-Тоо»
+                </p>
+
+                <span class="banner_location_adress">
+                  Бишкек, Улица Малдыбаева, 54/1
+                </span>
+              </div>
+            </div>
+
+            <div class="social-link">
+              <a href="tel:+996998083828" class="">
+                <i class="ri-phone-fill"> </i>
+              </a>
+
+              <a href="#gift" class="">
+                <i class="ri-gift-2-fill"> </i>
+              </a>
+
+             
+              <a
+              href="https://2gis.kg/bishkek/search/%D1%82%D0%BE%D0%B9%D0%BA%D0%B0%D0%BD%D0%B0/rubricId/10803/firm/70000001019338683/74.618578%2C42.884963?m=74.553811%2C42.873675%2F10.44"
+              class="invi_map"
+              target="_blank"
+            >
+            
+            <img src="./image/2gis.jpg" style="border-radius: 50%; width: 20px; height: 20px; " alt="2gis"/>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <title>Султан ❤️ Чынара</title>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="subtitle">Биз жөнүндө</p>
+
+          <h2 class="section-title">Жаш жубайлар</h2>
+        </div>
+
+        <div class="about-container">
+          <div class="about-card" style="order: 1">
+            <div class="about-media">
+              <img
+                data-src="https://yt3.googleusercontent.com/ALrrhQMhY3ArYu1Io5XKztTuEfolYpxZiGvKrM_0e7kLbymDV5RwWkOna2ccR7maBwhoquYTVQ=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+                class="bride_img lazyload"
+              />
+            </div>
+
+            <div class="about-body" data-aos="fade-up" data-aos-duration="3000">
+              <h3 class="bride_name uk-margin-remove">Чынара</h3>
+
+              <p class="bride_birthday uk-margin-remove">
+                Сулуу • Назик • Ачык көңүл • Боорукер
+              </p>
+
+              <p class="bride_des"></p>
+
+              <div class="social-link">
+                <a href="tel:+996998083828" class="gr_phone">
+                  <i class="ri-phone-fill"> </i>
+                </a>
+
+                <a href="#gift" class="">
+                  <i class="ri-gift-2-fill"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card" style="order: 2">
+            <div class="about-media">
+              <img
+                data-src="https://i.scdn.co/image/ab6761610000e5eb91e07b21b55a09be123a3e6f"
+                alt=""
+                class="groom_img lazyload"
+              />
+            </div>
+
+            <div class="about-body" data-aos="fade-up" data-aos-duration="3000">
+              <h3 class="groom_name uk-margin-remove">Султан</h3>
+
+              <p class="groom_birthday uk-margin-remove">
+                Акылдуу • Эмгекчил • Сабырдуу • Ойчул
+              </p>
+
+              <p class="groom_des"></p>
+
+              <div class="social-link">
+                <a href="tel:+996998083828" class="gr_phone">
+                  <i class="ri-phone-fill"> </i>
+                </a>
+
+                <a href="#gift" class="">
+                  <i class="ri-gift-2-fill"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- COUNTDOWN END INVITATION-->
+    <section id="countdown-section" class="">
+      <div class="container">
+        <!-- COUNTDOWN -->
+        <div
+          class="count-down section-countdown img_bg bg_overlay lazyload"
+          data-bg="https://data.kaktus.media/image/big/2018-04-10_11-35-08_171379.jpg"
+          style="background-image: none"
+        >
+          <p class="subtitle">Той күнүнө чейин ⏳
+          </p>
+
+          <svg
+            class="heartbeat"
+            width="64"
+            height="64"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="red"
+              d="M16.5 13.287c-2.475-2.716-5.5-.712-5.5 2.112c0 2.56 1.814 4.035 3.358 5.292l.044.036l.427.35c.571.475 1.121.923 1.671.923s1.1-.448 1.671-.923C19.789 19.73 22 18.224 22 15.399c0-.927-.326-1.767-.853-2.38c-1.075-1.251-2.985-1.556-4.647.268Z"
+            />
+            <path
+              fill="#f1ebe4"
+              d="M8.106 18.247C5.298 16.083 2 13.542 2 9.137C2 4.274 7.5.825 12 5.501C16.5.825 22 4.274 22 9.137c0 .834-.118 1.6-.329 2.31a4.203 4.203 0 0 0-2.619-.947c-.89-.005-1.758.274-2.553.81c-1.39-.933-2.956-1.058-4.33-.395c-1.635.79-2.669 2.556-2.669 4.484c0 2.306 1.149 3.923 2.342 5.095c-.948-.076-1.897-.808-2.88-1.583c-.277-.219-.564-.44-.856-.664Z"
+            />
+          </svg>
+
+          <div
+            class="uk-grid-small uk-child-width-1-4 uk-margin uk-flex-center"
+            uk-grid
+            uk-countdown="date: 2026-04-20 10:00:00"
+          >
+            <div>
+              <div
+                class="uk-padding-small blur-bg uk-flex uk-flex-center uk-flex-middle uk-border-rounded uk-flex-column text-white"
+              >
+                <div class="uk-countdown-number uk-countdown-days"></div>
+
+                <div class="uk-countdown-label uk-margin-small uk-text-center">
+                  Күн
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="uk-padding-small blur-bg uk-flex uk-flex-center uk-flex-middle uk-border-rounded uk-flex-column text-white"
+              >
+                <div class="uk-countdown-number uk-countdown-hours"></div>
+
+                <div class="uk-countdown-label uk-margin-small uk-text-center">
+                  Саат
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="uk-padding-small blur-bg uk-flex uk-flex-center uk-flex-middle uk-border-rounded uk-flex-column text-white"
+              >
+                <div class="uk-countdown-number uk-countdown-minutes"></div>
+
+                <div class="uk-countdown-label uk-margin-small uk-text-center">
+                  Мүнөт
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="uk-padding-small blur-bg uk-flex uk-flex-center uk-flex-middle uk-border-rounded uk-flex-column text-white"
+              >
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+
+                <div class="uk-countdown-label uk-margin-small uk-text-center">
+                  Секунд
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="invitation">
+          <div class="invitation-container">
+            <div class="invitation-card">
+              <img
+                data-src="https://data.kaktus.media/image/big/2023-09-02_15-42-36_473983.jpg"
+                alt=""
+                class="lazyload"
+              />
+
+              <h3 class="card-title uk-margin-remove">Ресторан «Ала-Тоо»
+              </h3>
+
+              <address class="uk-margin-remove">
+                <p>Бишкек шаары, Малдабаева көчөсү 54/1
+                </p>
+              </address>
+
+              <div class="invitation-body">
+                <div class="invi_time">
+                  <p class="fw-bold">
+                    Саат 
+                    <span class="invi_hours"> 17:00</span>
+                  </p>
+
+                  <div class="invi_group_time">
+                    <span class="invi_date_text"> Бейшемби </span>
+
+                    <span class="invi_date_number">
+                      <p class="invi_date">20</p>
+                      /
+
+                      <p class="invi_month">04</p>
+                    </span>
+
+                    <span class="invi_year_text"> 2026 </span>
+                  </div>
+
+                  <p class="invi_amlich">Сизди үйлөнүү тоюбузга чакырабыз 🤍
+                  </p>
+                </div>
+              </div>
+
+              <div class="social-link">
+                <a href="tel:+996998083828" class="phone_number">
+                  <i class="ri-phone-fill"> </i>
+                </a>
+
+                <a
+                  href="https://2gis.kg/bishkek/search/%D1%82%D0%BE%D0%B9%D0%BA%D0%B0%D0%BD%D0%B0/rubricId/10803/firm/70000001019338683/74.618578%2C42.884963?m=74.553811%2C42.873675%2F10.44"
+                  class="invi_map"
+                  target="_blank"
+                >
+                
+                <img src="./image/2gis.jpg" style="border-radius: 50%; max-width: none; " alt="2gis"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+    </section>
+    <!-- END COUNTDOWN END INVITATION--->
+
+    <!-- DRESS CODE -->
+    <section class="dresscode" id="dresscode">
+      <div class="container">
+        <div class="dresscode-time-container uk-panel uk-section">
+          <h2 class="section-title uk-text-center">
+            Тойдун программасы          </h2>
+
+          <div
+            class="uk-position-relative uk-margin-large-top"
+            uk-scrollspy="cls: uk-animation-slide-bottom; target: .dress-items; delay: 500; repeat: true"
+          >
+            <div
+              class="uk-position-center"
+              style="width: 2px; height: 100%; background-color: white"
+            ></div>
+
+            <div class="uk-flex-center uk-child-width-1-1" uk-grid>
+              <div>
+                <div
+                  class="dress-items uk-position-relative uk-child-width-1-2 uk-margin-top uk-grid-collapse uk-flex-center"
+                  uk-grid
+                >
+                  <span
+                    class="uk-position-top-center uk-border-circle"
+                    style="width: 24px; height: 24px; background-color: white"
+                  >
+                  </span>
+
+                  <div>
+                    <div class="dress-media uk-text-right uk-margin-right">
+                   
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                      width="100" height="100"
+                      viewBox="0 0 256 256"
+                      fill="none">
+                   <g fill="none"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                     <rect x="56" y="64" width="56" height="128" rx="8"/>
+                     <rect x="144" y="64" width="56" height="128" rx="8"/>
+                     <circle cx="102" cy="128" r="3"/>
+                     <circle cx="154" cy="128" r="3"/>
+                     <path d="M128 86c6-8 18-3 18 7 0 12-18 22-18 22s-18-10-18-22c0-10 12-15 18-7z"/>
+                   </g>
+                 </svg>
+                 
+                      
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="dress-content uk-text-left uk-margin-left">
+                      <h2 class="dress-time">18:00</h2>
+
+                      <h3 class="dress-title uk-text-default uk-margin-remove">
+                        Ачылыш + жаштарды тосуп алуу                     </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="dress-items uk-position-relative uk-child-width-1-2 uk-margin-top uk-grid-collapse uk-flex-center"
+                  uk-grid
+                >
+                  <span
+                    class="uk-position-top-center uk-border-circle"
+                    style="width: 24px; height: 24px; background-color: white"
+                  >
+                  </span>
+
+                  <div>
+                    <div class="dress-media uk-text-right uk-margin-right">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg"
+     width="100" height="100"
+     viewBox="0 0 256 256"
+     fill="none">
+  <g fill="none"
+     stroke="currentColor"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- microphone -->
+    <rect x="100" y="40" width="56" height="96" rx="28"/>
+    <path d="M128 136v28"/>
+    <path d="M96 164h64"/>
+    <path d="M128 164v28"/>
+    <path d="M88 220h80"/>
+
+    <!-- heart -->
+    <path d="M170 88c6-8 18-3 18 7
+             0 12-18 22-18 22
+             s-18-10-18-22
+             c0-10 12-15 18-7z"/>
+  </g>
+</svg>
+
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="dress-content uk-text-left uk-margin-left">
+                      <h2 class="dress-time">19:00</h2>
+
+                      <h3 class="dress-title uk-text-default uk-margin-remove">
+                        Бата & ата-энелердин сөзү                    </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="dress-items uk-position-relative uk-child-width-1-2 uk-margin-top uk-grid-collapse uk-flex-center"
+                  uk-grid
+                >
+                  <span
+                    class="uk-position-top-center uk-border-circle"
+                    style="width: 24px; height: 24px; background-color: white"
+                  >
+                  </span>
+
+                  <div>
+                    <div class="dress-media uk-text-right uk-margin-right">
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                      width="100" height="100"
+                      viewBox="0 0 256 256"
+                      fill="none"
+                      style="background: transparent">
+                   <g fill="none"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                 
+                     <!-- mic head -->
+                     <rect x="92" y="46" width="72" height="90" rx="36"/>
+                 
+                     <!-- grille lines -->
+                     <path d="M110 70h36"/>
+                     <path d="M110 92h36"/>
+                     <path d="M110 114h36"/>
+                 
+                     <!-- mic stem -->
+                     <path d="M128 136v30"/>
+                     <path d="M102 166h52"/>
+                     <path d="M128 166v30"/>
+                     <path d="M96 226h64"/>
+                 
+                     <!-- small spark -->
+                     <path d="M190 88v14"/>
+                     <path d="M183 95h14"/>
+                   </g>
+                 </svg>
+                 
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="dress-content uk-text-left uk-margin-left">
+                      <h2 class="dress-time">20:00</h2>
+
+                      <h3 class="dress-title uk-text-default uk-margin-remove">
+                        Оюн-зоок & конкурстар                       </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="dress-items uk-position-relative uk-child-width-1-2 uk-margin-top uk-grid-collapse uk-flex-center"
+                  uk-grid
+                >
+                  <span
+                    class="uk-position-top-center uk-border-circle"
+                    style="width: 24px; height: 24px; background-color: white"
+                  >
+                  </span>
+
+                  <div>
+                    <div class="dress-media uk-text-right uk-margin-right">
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                      width="100" height="100"
+                      viewBox="0 0 256 256"
+                      fill="none"
+                      style="background: transparent">
+                   <g fill="none"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                 
+                     <!-- heads -->
+                     <circle cx="96" cy="78" r="16"/>
+                     <circle cx="160" cy="78" r="16"/>
+                 
+                     <!-- bodies -->
+                     <path d="M96 96v64"/>
+                     <path d="M160 96v64"/>
+                 
+                     <!-- arms (holding hands) -->
+                     <path d="M96 126c18-14 46-14 64 0"/>
+                 
+                     <!-- legs -->
+                     <path d="M80 220c10-24 16-44 16-60"/>
+                     <path d="M112 220c-10-24-16-44-16-60"/>
+                 
+                     <path d="M144 220c10-24 16-44 16-60"/>
+                     <path d="M176 220c-10-24-16-44-16-60"/>
+                 
+                     <!-- music note -->
+                     <path d="M206 70v48"/>
+                     <path d="M206 70l22-8v48"/>
+                     <circle cx="200" cy="126" r="10"/>
+                     <circle cx="222" cy="118" r="10"/>
+                   </g>
+                 </svg>
+                 
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="dress-content uk-text-left uk-margin-left">
+                      <h2 class="dress-time">21:00</h2>
+
+                      <h3 class="dress-title uk-text-default uk-margin-remove">
+                        Биринчи бий + жалпы бий               </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="dress-items uk-position-relative uk-child-width-1-2 uk-margin-top uk-grid-collapse uk-flex-center"
+                  uk-grid
+                >
+                  <span
+                    class="uk-position-top-center uk-border-circle"
+                    style="width: 24px; height: 24px; background-color: white"
+                  >
+                  </span>
+
+                  <div>
+                    <div class="dress-media uk-text-right uk-margin-right">
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                      width="100" height="100"
+                      viewBox="0 0 256 256"
+                      fill="none"
+                      style="background: transparent">
+                   <g fill="none"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                 
+                     <!-- top heart -->
+                     <path d="M128 42c6-8 18-3 18 7
+                              0 12-18 22-18 22
+                              s-18-10-18-22
+                              c0-10 12-15 18-7z"/>
+                 
+                     <!-- tiers -->
+                     <rect x="92" y="84" width="72" height="40" rx="12"/>
+                     <rect x="72" y="132" width="112" height="46" rx="14"/>
+                     <rect x="56" y="188" width="144" height="44" rx="14"/>
+                 
+                     <!-- frosting lines -->
+                     <path d="M92 104c10 8 22 8 32 0s22-8 32 0"/>
+                     <path d="M72 154c14 10 28 10 42 0s28-10 42 0s28 10 28 10"/>
+                 
+                   </g>
+                 </svg>
+                 
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="dress-content uk-text-left uk-margin-left">
+                      <h2 class="dress-time">22:00</h2>
+
+                      <h3 class="dress-title uk-text-default uk-margin-remove">
+                        Торт/финал                     </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END DRESS CODE -->
+
+    <!-- TIMELINE -->
+    <section
+      id="time-line"
+      class="time-line-section img_bg bg_overlay lazyload"
+      data-bg="https://i.pinimg.com/1200x/11/3f/bf/113fbf66011166913edae7bc0398ddc2.jpg"
+      style="background-image: none"
+    >
+      <div class="time-line container">
+        <div class="section-heading">
+          <p class="subtitle"></p>
+
+          <h2 class="section-title">Биздин сүйүү тарыхыбыз</h2>
+        </div>
+
+        <div class="timeline-list">
+          <div
+            class="timeline-item"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="timeline-media">
+              <img
+                data-src="https://cdn-1.aki.kg/st_gallery/93/1130093.041ad1771716b4b18ea68dc842c43789.jpg"
+                alt=""
+                class="timline-img lazyload"
+              />
+            </div>
+
+            <div class="timeline-body">
+              <span class="story-date"> 2022 </span>
+
+              <span class="title"> Таанышуу </span>
+
+              <p class="timeline-des uk-margin-remove">
+                Кокустан таанышып, сүйлөшүп баштаганбыз.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="timeline-media">
+              <img
+                data-src="https://data.kaktus.media/image/big/2018-03-22_13-31-54_363358.jpg"
+                alt=""
+                class="timline-img lazyload"
+              />
+            </div>
+
+            <div class="timeline-body">
+              <span class="story-date"> 2023 </span>
+
+              <span class="title"> Жакындашуу </span>
+
+              <p class="timeline-des uk-margin-remove">
+                Убакыт өтүп, бири-бирибизге жакындай түштүк.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="timeline-media">
+              <img
+                data-src="https://n1s1.hsmedia.ru/5a/3f/d2/5a3fd20325c75866d150ea17d4994cff/728x876_1_3d66d33b7d4f9ca2bc620043ad42f897@1080x1300_0xac120002_2672558641593338181.jpg.webp"
+                alt=""
+                class="timline-img lazyload"
+              />
+            </div>
+
+            <div class="timeline-body">
+              <span class="story-date"> 2024 </span>
+
+              <span class="title"> Сыноо </span>
+
+              <p class="timeline-des uk-margin-remove">
+                Иш, турмуш себептери менен кыйын учурлар болду,
+                бирок байланышыбыз үзүлгөн жок.              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="timeline-media">
+              <img
+                data-src="https://i.scdn.co/image/ab67616d0000b27344888fe9c61434499c46af02"
+                alt=""
+                class="timline-img lazyload"
+              />
+            </div>
+
+            <div class="timeline-body">
+              <span class="story-date"> 2025 </span>
+
+              <span class="title"> Олуттуу кадам
+              </span>
+
+              <p class="timeline-des uk-margin-remove">
+                Үй-бүлөлөр таанышып,
+                ниетибиздин олуттуу экенин чечтик.              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-item"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="timeline-media">
+              <img
+                data-src="https://sputnik.kg/img/103859/65/1038596527_0:284:1536:1249_1920x0_80_0_0_632728bad8e8ff0d0cf615dac2393ac7.jpg"
+                alt=""
+                class="timline-img lazyload"
+              />
+            </div>
+
+            <div class="timeline-body">
+              <span class="story-date"> 2026 </span>
+
+              <span class="title"> Чечим </span>
+
+              <p class="timeline-des uk-margin-remove">
+                Өмүрдү бирге өткөрүүнү тандадык.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TIMELINE -->
+
+    <!-- ALBUM -->
+    <section id="album">
+      <div class="container">
+        <p class="subtitle">Биздин таттуу көз ирмемдер
+        </p>
+
+        <h2 class="section-title">Той алдындагы сүрөттөр
+        </h2>
+      </div>
+
+      <div class="album-slide">
+        <div class="swiper-wrapper album">
+          <div class="swiper-slide">
+            <a
+              href="https://sun9-77.userapi.com/impg/c854220/v854220875/2570f3/bE73ScfwE6E.jpg?size=1123x749&quality=96&sign=eb1f897a4f640da4cff21afe6216c536&type=album"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://sun9-77.userapi.com/impg/c854220/v854220875/2570f3/bE73ScfwE6E.jpg?size=1123x749&quality=96&sign=eb1f897a4f640da4cff21afe6216c536&type=album"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://pic.rutubelist.ru/video/2024-11-24/bc/96/bc964bb9449a74aef81bd25b04bc573f.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://pic.rutubelist.ru/video/2024-11-24/bc/96/bc964bb9449a74aef81bd25b04bc573f.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://i.ytimg.com/vi/8am8gjXq_gc/maxresdefault.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://i.ytimg.com/vi/8am8gjXq_gc/maxresdefault.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://starmedia.kg/wp-content/uploads/2019/01/r4L47MDL7K4-min.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://starmedia.kg/wp-content/uploads/2019/01/r4L47MDL7K4-min.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://i.ytimg.com/vi/DbceZ6h50oE/hqdefault.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://i.ytimg.com/vi/DbceZ6h50oE/hqdefault.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://barometr.kg/storage/app/uploads/public/5c2/257/ac1/5c2257ac1b212370725178.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://barometr.kg/storage/app/uploads/public/5c2/257/ac1/5c2257ac1b212370725178.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/JUNE2020/9059509fa35017223505e47cd5af5929.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/JUNE2020/9059509fa35017223505e47cd5af5929.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/Mart/080a2ebb692ba6ff75ea5b9e7fca6876.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/Mart/080a2ebb692ba6ff75ea5b9e7fca6876.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/Mart/4d8369d6bc9a6b2f21a409d33e5a48ed.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://cdn-1.aki.kg/st_runews/.storage/limon3/images/Mart/4d8369d6bc9a6b2f21a409d33e5a48ed.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://i.ytimg.com/vi/HxtQpvfAGkc/maxresdefault.jpg"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://i.ytimg.com/vi/HxtQpvfAGkc/maxresdefault.jpg"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtOEnw3KL8xTiGGhG4p6MrkyWvuNQ6f4lAPw&s"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtOEnw3KL8xTiGGhG4p6MrkyWvuNQ6f4lAPw&s"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41H_T6H3iujNEtnvsQYqFpmbMFfD5xI_5pA&s"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41H_T6H3iujNEtnvsQYqFpmbMFfD5xI_5pA&s"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZGdzs70nykgFCeymI48CJ56QVijJ35xcUQ&s"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZGdzs70nykgFCeymI48CJ56QVijJ35xcUQ&s"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLygz-gwlk5jUo26_WSF9quGDY6HKWYDvGlw&s"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLygz-gwlk5jUo26_WSF9quGDY6HKWYDvGlw&s"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a
+              href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJcw56bwzGCqtzgXMR1I7Q1ewGJFdI4l5HA&s"
+              data-fancybox="gallery"
+            >
+              <img
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnJcw56bwzGCqtzgXMR1I7Q1ewGJFdI4l5HA&s"
+                alt=""
+                style="object-position: center"
+                class="lazyload"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- END ALBUM -->
+
+    <!-- VIDEO -->
+    <style>
+      #video {
+        padding: 80px 0;
+        background: var(--bg);
+      }
+
+      #video .section-title {
+        text-align: center;
+        color: var(--primary-color);
+      }
+
+      #video .subtitle {
+        text-align: center;
+      }
+
+      .video-container {
+        margin-top: 40px;
+      }
+
+      .video-list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .video-list iframe {
+        aspect-ratio: 16/9;
+        width: 100%;
+        max-width: 768px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0 0 0 /10%);
+      }
+    </style>
+
+    <section id="video">
+      <div class="container">
+        <p class="subtitle">ВИДЕО</p>
+
+        <h2 class="section-title">Биздин көз ирмемдер</h2>
+      </div>
+
+      <div class="video-container">
+        <div class="video-list">
+      
+          <!-- Video 1 -->
+          <div class="video-item">
+            <iframe
+              src="https://www.youtube.com/embed/M7xKYmOnOCo"
+              title="Our Moments Video 1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="
+                width: 100%;
+                max-width: 768px;
+                height: 430px;
+                border-radius: 12px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+              "
+            ></iframe>
+          </div>
+      
+          <!-- Video 2 -->
+          <div class="video-item">
+            <iframe
+              src="https://www.youtube.com/embed/qUmuIuv4ECI"
+              title="Our Moments Video 2"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              style="
+                width: 100%;
+                max-width: 768px;
+                height: 430px;
+                border-radius: 12px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+              "
+            ></iframe>
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+    <!-- END VIDEO -->
+
+    <!-- GIFTS -->
+    <section id="gift" class="section-gift" style="display: block">
+      <div class="container">
+        <p class="subtitle"></p>
+
+        <h5 class="uk-text-center script-font uk-text-cappercase">
+          Жаштарга белек берүү        </h5>
+
+        <a href="#box-gift" data-fancybox="" class="btn btn-primary">
+          <svg
+            width="54"
+            height="54"
+            viewBox="0 0 256 256"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="#fff" transform="translate(21, 6)">
+              <path
+                d="M208 128v72a8 8 0 0 1-8 8H56a8 8 0 0 1-8-8v-72Z"
+                opacity=".2"
+              />
+              <path
+                d="M216 72h-35.08c.39-.33.79-.65 1.17-1A29.53 29.53 0 0 0 192 49.57A32.62 32.62 0 0 0 158.44 16A29.53 29.53 0 0 0 137 25.91a54.94 54.94 0 0 0-9 14.48a54.94 54.94 0 0 0-9-14.48A29.53 29.53 0 0 0 97.56 16A32.62 32.62 0 0 0 64 49.57A29.53 29.53 0 0 0 73.91 71c.38.33.78.65 1.17 1H40a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16v64a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16v-64a16 16 0 0 0 16-16V88a16 16 0 0 0-16-16m-67-35.49a13.69 13.69 0 0 1 10-4.5h.49A16.62 16.62 0 0 1 176 49.08a13.69 13.69 0 0 1-4.5 10c-9.49 8.4-25.24 11.36-35 12.4c1.2-10.59 4.5-25.98 12.5-34.97m-64.09.36A16.63 16.63 0 0 1 96.59 32h.49a13.69 13.69 0 0 1 10 4.5c8.39 9.48 11.35 25.2 12.39 34.92c-9.72-1-25.44-4-34.92-12.39a13.69 13.69 0 0 1-4.5-10a16.6 16.6 0 0 1 4.82-12.16ZM40 88h80v32H40Zm16 48h64v64H56Zm144 64h-64v-64h64Zm16-80h-80V88h80z"
+              />
+            </g>
+          </svg>
+        </a>
+
+        <div id="box-gift">
+          <div class="gift-qr">
+            <img
+              data-src="./image/Подарок для молодой пары.png"
+              alt=""
+              class="groom_qr lazyload"
+              style="max-width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END GIFTS -->
+
+    <!-- ALBUM -->
+
+    <!-- END ALBUM -->
+
+   
+    <!-- THANK YOU -->
+    <section
+      id="thankyou"
+      class="section-thankyou bg_overlay uk-position-z-index"
+    >
+      <div class="uk-overlay uk-overlay-primary uk-position-cover"></div>
+
+      <img
+        data-src="https://insta.izde.kg/images/media/477911322/aselkadyrbekova_B6REUMmlxCe.jpg"
+        alt=""
+        class="thankyou-bg lazyload"
+        style="object-position: center"
+      />
+
+      <div
+        class="thankyou-body container uk-position-relative uk-position-z-index"
+      >
+        <h2
+          class="banner-title script-font uk-heading-medium uk-text-center text-white"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+        Рахмат!
+      </h2>
+
+        <p class="thankyou-des" data-aos="fade" data-aos-duration="3000">
+          Сиздерди той күнүбүздө күтөбүз.
+
+        </p>
+      </div>
+    </section>
+    <!-- END THANK YOU -->
+
+    <!-- AUDIO -->
+    <audio
+      src="https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/audio/ido.mp3"
+      controls
+      loop
+      id="audio"
+    ></audio>
+
+    <button class="toggleAudio">
+      <i class="ri-volume-up-fill"> </i>
+    </button>
+    <!-- END AUDIO -->
+
+    
+	<!-- Question -->
+
+	<section style="width:100%; padding:30px 10px; font-family: Arial, sans-serif;">
+		<div style="max-width: 768px; margin: 0 auto;">
+		  <h2 style="font-size:24px; font-weight:500; margin:0 0 20px;">
+			Көп берилүүчү суроолор
+		  </h2>
+	  
+		  <div style="background:#fff; display:flex; flex-direction:column; gap:32px;">
+			<!-- ITEM 1 -->
+			<div style="width:100%; border-bottom:1px solid rgba(0,0,0,0.1); padding-bottom:8px;">
+			  <button
+				type="button"
+				onclick="toggleFaq(0)"
+				style="
+				  width:100%;
+				  display:flex;
+				  align-items:center;
+				  justify-content:space-between;
+				  gap:16px;
+				  padding:20px 0;
+				  cursor:pointer;
+				  background:transparent;
+				  border:none;
+				  text-align:left;
+				"
+			  >
+				<span style="text-transform:uppercase; letter-spacing:0.08em; font-size:15px;">
+					Макеттин баасына кирген өзгөртүүлөр					</span>
+	  
+				<span
+				  id="faq-icon-0"
+				  style="
+					flex-shrink:0;
+					width:40px;
+					height:40px;
+					border-radius:12px;
+					background:#000;
+					color:#fff;
+					display:flex;
+					align-items:center;
+					justify-content:center;
+					font-size:24px;
+					line-height:1;
+					user-select:none;
+				  "
+				>+</span>
+			  </button>
+	  
+			  <div
+				id="faq-panel-0"
+				style="
+				  display:grid;
+				  grid-template-rows:0fr;
+				  transition: grid-template-rows 300ms ease, padding-bottom 300ms ease;
+				  margin-top:10px;
+				  padding-bottom:0;
+				"
+			  >
+				<div style="overflow:hidden;">
+					<p style="margin:0; color:rgba(0,0,0,0.7); font-size:14px; line-height:1.6;">
+						• Күйөө менен келиндин аттарын өзгөртүү — бардык ысымдар сиз берген маалыматка ылайык жаңыртылат <br>
+						• Тойдун датасын, убактысын жана ордун алмаштыруу — чакыруудагы бардык негизги маалыматтар так өзгөртүлөт <br>
+						• Чакыруу тексти менен иштөө — текстти оңдоо же толугу менен алмаштыруу мүмкүн <br>
+						• Сүрөттөрдү алмаштыруу — сайттагы сүрөттөр сиздин жеке сүрөттөр менен жаңыланат <br>
+						• Түстөргө оңдоолор — макеттин стилин сактоо менен майда өзгөртүүлөр киргизилет <br>
+						• Тексттеги каталарды оңдоо — жазуу жана грамматикалык каталар толугу менен текшерилет <br>
+					  </p>
+			  </div>
+			</div>
+	  
+			
+		  </div>
+		  
+			<!-- ITEM 2 -->
+			<div style="width:100%; border-bottom:1px solid rgba(0,0,0,0.1); padding-bottom:8px;">
+				<button
+				  type="button"
+				  onclick="toggleFaq(1)"
+				  style="
+					width:100%;
+					display:flex;
+					align-items:center;
+					justify-content:space-between;
+					gap:16px;
+					padding:20px 0;
+					cursor:pointer;
+					background:transparent;
+					border:none;
+					text-align:left;
+				  "
+				>
+				  <span style="text-transform:uppercase; letter-spacing:0.08em; font-size:15px;">
+					  Кошумча акы менен кошо ала турган мүмкүнчүлүктөр				</span>
+		
+				  <span
+					id="faq-icon-1"
+					style="
+					  flex-shrink:0;
+					  width:40px;
+					  height:40px;
+					  border-radius:12px;
+					  background:#000;
+					  color:#fff;
+					  display:flex;
+					  align-items:center;
+					  justify-content:center;
+					  font-size:24px;
+					  line-height:1;
+					  user-select:none;
+					"
+				  >+</span>
+				</button>
+		
+				<div
+				  id="faq-panel-1"
+				  style="
+					display:grid;
+					grid-template-rows:0fr;
+					transition: grid-template-rows 300ms ease, padding-bottom 300ms ease;
+					margin-top:10px;
+					padding-bottom:0;
+				  "
+				>
+				  <div style="overflow:hidden;">
+					  <p style="margin:0; color:rgba(0,0,0,0.7); font-size:14px; line-height:1.6;">
+						  • Жеке дизайн — макет нөлдөн баштап, сиздин каалооңузга жараша жасалат <b>(1000 сомдон)</b> <br>
+						  • Кошумча блоктор же барактар — программа, карта же кошумча маалымат бөлүмдөрү <b>(500 сомдон)</b> <br>
+						  • Тойго чейин эсептегич (таймер) — тойго канча күн калганын көрсөтөт *Эгер макетте жок болсо <b>(500 сомдон)</b> <br>
+						  • Кеңейтилген галерея — көп сандагы сүрөттөрдү жайгаштыруу мүмкүнчүлүгү <b>(500 сомдон)</b> <br>
+						  • Видео же анимация кошуу — сайтты жандуу жана заманбап кылат <b>(500 сомдон)</b> <br>
+						  • QR-код кошуу — чакырууну оңой бөлүшүү үчүн <b>(500 сомдон)</b> <br>
+						  • Көп тилдүү версия — сайтты кошумча тилдерде көрсөтүү <b>(1000 сомдон)</b> <br>
+						  • Жеке домен туташтыруу — сайтты өз дарегиңиз менен ачуу <b>(8000 сомдон)</b> <br>
+						  • Конок үчүн жеке аталыштагы шилтеме — чакырууда коноктун аты менен ачылган өзүнчө шилтеме <b>(100 сом / 1 даана)</b>					  </p>
+				  </div>
+				</div>
+			  </div>
+		
+		</div>
+			  <!-- Call -->
+			  <div style="
+			  width:100%;
+			  display:flex;
+			  align-items:center;
+			  justify-content:space-between;
+			  gap:24px;
+			  padding:40px 0;
+			  flex-wrap:wrap;
+			">
+			  <!-- Текст -->
+			  <div style="
+				font-size:16px;
+				font-weight:500;
+				letter-spacing:0.08em;
+				text-transform:uppercase;
+				color:#000;
+				line-height:1.4;
+			  ">
+				Бул чакырууну заказ кылуу үчүн бизге жазыңыз
+			  </div>
+			
+			  <!-- Кнопки -->
+			  <div style="display:flex; gap:12px;">
+				<a
+				id="wa-order-btn"
+				href="https://wa.me/996998083828"
+				target="_blank"
+				style="
+				  padding:14px 32px;
+				  background:#000;
+				  color:#fff;
+				  text-decoration:none;
+				  font-size:13px;
+				  letter-spacing:0.08em;
+				  text-transform:uppercase;
+				  border-radius:8px;
+				  display:inline-flex;
+				  align-items:center;
+				  justify-content:center;
+				"
+			  >
+				<p style="color: white;">WhatsApp</p>
+			  </a>
+			  
+			  <script>
+				(function () {
+				  var phone = "996998083828";
+				  var templateId = "2";
+				  var price = "3000 сом";
+			  
+				  var btn = document.getElementById("wa-order-btn");
+				  if (!btn) return;
+			  
+				  btn.addEventListener("click", function () {
+					var url = window.location.href;
+			  
+					var text =
+					  "Саламатсызбы!\n\n" +
+					  "Мен бул чакыруу макетин заказ кылгым келет.\n" +
+					  "Макет №" + templateId + "\n" +
+					  "Баасы: " + price + "\n\n" +
+					  "Макетке шилтеме: " + url;
+			  
+					btn.href = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+				  });
+				})();
+			  </script>
+			  
+	
+			  </div>
+			</div>
+		</div>
+		
+	  </section>
+
+
+	
+	  
+	  <script>
+		// only one open at a time (like your React version)
+		let openIndex = null;
+	  
+		function setFaqState(idx, isOpen) {
+		  const panel = document.getElementById(`faq-panel-${idx}`);
+		  const icon = document.getElementById(`faq-icon-${idx}`);
+	  
+		  if (!panel || !icon) return;
+	  
+		  if (isOpen) {
+			panel.style.gridTemplateRows = "1fr";
+			panel.style.paddingBottom = "20px";
+			icon.textContent = "−";
+		  } else {
+			panel.style.gridTemplateRows = "0fr";
+			panel.style.paddingBottom = "0px";
+			icon.textContent = "+";
+		  }
+		}
+	  
+		function toggleFaq(idx) {
+		  // close current
+		  if (openIndex !== null && openIndex !== idx) {
+			setFaqState(openIndex, false);
+		  }
+	  
+		  // toggle clicked
+		  const nextOpen = openIndex === idx ? null : idx;
+		  openIndex = nextOpen;
+	  
+		  // update clicked
+		  setFaqState(idx, openIndex === idx);
+		}
+	  </script>
+
+    <script>
+      document.body.style.overflow = 'hidden';
+
+      const startBtn = document.getElementById('startButton');
+      const audio = document.getElementById('audio');
+      const welcomeModal = document.getElementById('welcome-modal');
+      const toggleAudioBtn = document.querySelector('.toggleAudio');
+      const toggleIcon = toggleAudioBtn?.querySelector('i');
+
+      window.addEventListener('load', () => window.scrollTo(0, 0));
+
+      if (startBtn) {
+        startBtn.addEventListener('click', () => {
+          audio?.play();
+
+          if (welcomeModal) welcomeModal.style.display = 'none';
+
+          document.body.style.overflow = 'auto';
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const videos = document.querySelectorAll('video');
+
+        const updateAudioIcon = (isMuted) => {
+          toggleIcon?.classList.toggle('ri-volume-mute-fill', isMuted);
+          toggleIcon?.classList.toggle('ri-volume-up-fill', !isMuted);
+        };
+
+        videos.forEach((video) => {
+          video.addEventListener('play', () => {
+            toggleAudioBtn.disabled = true;
+            audio?.pause();
+            updateAudioIcon(true);
+          });
+
+          video.addEventListener('pause', () => {
+            toggleAudioBtn.disabled = false;
+            audio?.play();
+            updateAudioIcon(false);
+          });
+
+          video.addEventListener('ended', () => {
+            toggleAudioBtn.disabled = false;
+            audio?.play();
+            updateAudioIcon(false);
+          });
+        });
+      });
+
+      document.addEventListener('lazybeforeunveil', function (e) {
+        const element = e.target;
+
+        if (element.dataset.bg) {
+          element.style.backgroundImage = `url(${element.dataset.bg})`;
+        }
+
+        if (element.tagName === 'VIDEO' && element.dataset.poster) {
+          element.poster = element.dataset.poster;
+        }
+      });
+
+      const resources = [
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9115.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9451.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9636.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9267.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9667.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8772.webp',
+        //
+        'wp-content/pic/1.png',
+        'wp-content/pic/2.png',
+        'wp-content/pic/3.png',
+        'wp-content/pic/4.png',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8430.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2020.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2021.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2022.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2023.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2024.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8309_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9629_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8577_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8728_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8867_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8742_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8979_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8924_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9001_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9043_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9255_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9616_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9514_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9362_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9554_1.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/0.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/2.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/bank.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9394_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9736_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9541_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9205_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9289_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9067_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8968_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9134_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9473_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8659_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8829_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9570_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9716_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9648_1.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9704_1.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/card.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9433.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8309.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9629.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8577.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8728.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8867.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8742.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8979.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8924.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9001.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9043.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9255.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9616.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9514.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9362.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9554.webp',
+        //
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9394.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9736.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9541.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9205.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9289.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9067.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8968.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9134.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9473.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8659.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/8829.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9570.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9716.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9648.webp',
+        'https://s3.ap-southeast-1.amazonaws.com/tynab.wedding/image/9704.webp',
+      ];
+
+      function loadResourceSequentially(index = 0) {
+        if (index >= resources.length) return;
+
+        const link = document.createElement('link');
+
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = resources[index];
+
+        link.onload = () => loadResourceSequentially(index + 1);
+        link.onerror = () => loadResourceSequentially(index + 1);
+
+        document.head.appendChild(link);
+      }
+
+      loadResourceSequentially();
+
+      document.cookie = 'username=John Doe; SameSite=Lax; Secure';
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js?ver=1.0.0"
+      id="fancybox js-js"
+    ></script>
+    <script
+      src="wp-content/themes/js/uikit.min8a54.js"
+      id="uikit js-js"
+    ></script>
+    <script
+      src="wp-content/themes/js/uikit-icons.min8a54.js"
+      id="uikit icon-js"
+    ></script>
+    <script src="wp-content/themes/js/aos8a54.js" id="aos js-js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?ver=1.0.0"
+      id="swiper slide-js"
+    ></script>
+    <script
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js?ver=1.0.0"
+      id="scrollrevea-js"
+    ></script>
+    <script
+      src="wp-content/themes/js/main-wedding8a54.js"
+      id="main wedding-js"
+    ></script>
+    <script
+      src="wp-includes/js/comment-reply.min380f.js"
+      id="comment-reply-js"
+      async
+      data-wp-strategy="async"
+    ></script>
+  </body>
+</html>
