@@ -39,6 +39,8 @@
 
     cursor: pointer;
 
+    z-index: 1000000;
+
 }
 
 .toggleAudio i {
